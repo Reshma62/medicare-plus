@@ -3,6 +3,7 @@
 import MediForm from "@/components/form/MediForm";
 import MediInput from "@/components/form/MediInput";
 import MediButton from "@/components/ui/MediButton";
+import MediSubmitButton from "@/components/ui/MediSubmitButton";
 import { Button } from "@nextui-org/react"; // Use the correct Next UI Button component
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           errorMessage="Please enter a valid email"
           placeHolder={"Enter your email"}
         />
-        <Button type="submit">Submit</Button>
+        <MediSubmitButton text={"Submit"} />
       </MediForm>
     </div>
   );
