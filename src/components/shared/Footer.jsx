@@ -23,7 +23,9 @@ const Footer = () => {
         </div>
         <Divider className="my-4  bg-white" />
         <FlexBox>
-          <small>Copyright ©2023 MediCare.com. All Rights Reserved</small>
+          <small className="">
+            Copyright ©2023 MediCare.com. All Rights Reserved
+          </small>
           <small>
             Design & Developed by{" "}
             <Link

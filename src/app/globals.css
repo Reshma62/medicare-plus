@@ -19,4 +19,51 @@ html {
   }
 }
 
+.curve-line {
+  position: absolute;
+  bottom: -10px; /* Adjust to position below the text */
+  left: 0;
+  width: 150px; /* Width of the curve */
+  height: 20px; /* Height of the curve */
+  border-top: 2px solid #4fc3f7; /* Curve color */
+  border-radius: 100px; /* Creates the curve */
+  animation: move-curve 2s linear infinite; /* Animation effect */
+}
+
+@keyframes move-curve {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.underline {
+   position: absolute;
+  bottom: -10px; /* Adjust the curve position below the text */
+  left: 0;
+  width: 100%; /* Full width of the underline */
+  height: 10px; /* Adjust height for the curve */
+  background: none;
+  border-bottom: 3px solid ; /* Line color */
+  border-radius: 50%; /* Create the curve */
+  animation: animate-curve 0.5s linear ; /* Continuous animation */
+  transform-origin: left; /* Start animation from the left */
+}
+
+@keyframes animate-curve {
+  0% {
+    transform: scaleX(0); /* Start with no line */
+  }
+  100% {
+    transform: scaleX(1); /* Fully expand the curved line */
+  }
+}
+
+
+
+
+
+
 

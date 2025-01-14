@@ -10,6 +10,9 @@ export default {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: "1rem",
+      },
     },
     extend: {
       screens: {
@@ -31,6 +34,8 @@ export default {
       backgroundImage: {
         "primary-gradient":
           "linear-gradient(270deg, #FF0C6C 0%, rgba(229, 32, 81, 0.99) 100% )",
+        "secondary-gradient":
+          "linear-gradient(270deg, rgba(229, 32, 81, 0.15) 0%, rgba(255, 12, 108, 0.01) 80%)",
       },
     },
   },
