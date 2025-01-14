@@ -1,7 +1,9 @@
-import { Image } from "@nextui-org/react";
+import { Divider, Image } from "@nextui-org/react";
 import { footerQuickLinksItem } from "../data/NavItem";
 import FooterMenu from "./Footer/FooterMenu";
 import mediCareLogo from "../../../public/header/medicarelogo.svg";
+import FlexBox from "../ui/FlexBox";
+import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-primary-gradient text-white p-4">
@@ -19,6 +21,19 @@ const Footer = () => {
           <FooterMenu title={"Department"} navItems={footerQuickLinksItem} />
           <FooterMenu title={"Useful Links"} navItems={footerQuickLinksItem} />
         </div>
+        <Divider className="my-4  bg-white" />
+        <FlexBox>
+          <small>Copyright ©2023 MediCare.com. All Rights Reserved</small>
+          <small>
+            Design & Developed by{" "}
+            <Link
+              className="font-bold"
+              href="https://developer-reshma-khanam.netlify.app/"
+            >
+              Reshma Khanam
+            </Link>
+          </small>
+        </FlexBox>
       </div>
     </footer>
   );
