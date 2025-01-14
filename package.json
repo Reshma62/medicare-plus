@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@flaticon/flaticon-uicons": "^3.3.1",
     "@nextui-org/button": "^2.2.8",
     "@nextui-org/react": "^2.6.10",
     "framer-motion": "^11.15.0",

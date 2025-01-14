@@ -8,14 +8,29 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
+      screens: {
+        lg: "1025px",
+        tablet: "991px",
+        md: "769px",
+        xl: "1281px",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secondary: "#19222D",
+        primary: "#E52051FC",
+      },
+      fontFamily: {
+        openSans: "var(--font-open-sans)",
+        outfit: "var(--font-outfit)",
       },
       backgroundImage: {
         "primary-gradient":
-          "linear-gradient(270deg, rgba(229, 32, 81, 0.99) 0%, #FF0C6C 72.5%)",
+          "linear-gradient(270deg, #FF0C6C 0%, rgba(229, 32, 81, 0.99) 100% )",
       },
     },
   },
