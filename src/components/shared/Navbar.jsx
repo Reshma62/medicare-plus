@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <div className="font-openSans bg-white shadow">
-      <div className="container py-4">
+      <div className="container py-4 2xl:px-10">
         <div className="flex items-center justify-between">
           <Image
             src={mediCareLogo.src}
@@ -56,7 +56,7 @@ const Navbar = () => {
             <Carts />
             <MediButton
               link="/#"
-              text={"Appointment Now"}
+              text={"Become a Doctor"}
               className={"uppercase font-bold"}
             />
           </FlexBox>

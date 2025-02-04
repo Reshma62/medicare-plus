@@ -6,7 +6,7 @@ const FlexBox = ({
 }) => {
   return (
     <div
-      className={`flex flex-col items-center ${justify} ${align} md:flex-row gap-4 ${className}`}
+      className={`flex flex-col items-center ${justify} ${align} tablet:flex-row gap-4 ${className}`}
     >
       {children}
     </div>
