@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Image, useDisclosure } from "@nextui-org/react";
+import { Button, Image, useDisclosure } from "@heroui/react";
 import FlexBox from "../ui/FlexBox";
 
 import mediCareLogo from "../../../public/header/medicarelogo.svg";

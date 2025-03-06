@@ -1,7 +1,7 @@
 "use client";
 
 import { FormProvider, useForm } from "react-hook-form";
-import { Form } from "@nextui-org/react";
+import { Form } from "@heroui/react";
 
 const MediForm = ({ onSubmit, children, defaultValues, resolver }) => {
   const formConfig = {};

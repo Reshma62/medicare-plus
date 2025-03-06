@@ -1,4 +1,4 @@
-import { Badge } from "@nextui-org/react";
+import { Badge } from "@heroui/react";
 import MediIcon from "../ui/MediIcon";
 
 const Carts = () => {

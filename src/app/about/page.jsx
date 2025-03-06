@@ -1,7 +1,7 @@
 "use client";
 
 import MediButton from "@/components/ui/MediButton";
-import { Link } from "@nextui-org/react";
+import { Link } from "@heroui/react";
 
 const page = () => {
   return (

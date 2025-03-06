@@ -48,7 +48,7 @@ html {
   background: none;
   border-bottom: 3px solid ; /* Line color */
   border-radius: 50%; /* Create the curve */
-  animation: animate-curve 0.5s linear ; /* Continuous animation */
+  animation: animate-curve 5s linear infinite ; /* Continuous animation */
   transform-origin: left; /* Start animation from the left */
 }
 
@@ -58,6 +58,40 @@ html {
   }
   100% {
     transform: scaleX(1); /* Fully expand the curved line */
+  }
+}
+
+body, html {
+  font-size: 1.25vw !important;
+}
+
+
+
+/* Medium screens */
+@media screen and (max-width: 1025px) {
+  body, html {
+    font-size: 1.56vw !important;
+  }
+}
+
+/* Large screens */
+@media screen and (max-width: 1281px) {
+  body, html {
+    font-size: 1.25vw !important;
+  }
+}
+
+/* Small screens */
+@media screen and (max-width: 767px) {
+  body, html {
+    font-size: 4.2667vw !important;
+  }
+}
+
+/* Ultra-wide screens: Scale smoothly instead of fixing */
+@media screen and (min-width: 1536px) {
+  body, html {
+    font-size: 20px !important; /* Keeps proportional growth */
   }
 }
 

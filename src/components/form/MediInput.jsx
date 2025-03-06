@@ -1,6 +1,6 @@
 "use client";
 
-import { Input } from "@nextui-org/react";
+import { Input } from "@heroui/react";
 import { Controller } from "react-hook-form";
 
 export default function MediInput({

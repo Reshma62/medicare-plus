@@ -1,4 +1,4 @@
-import { Divider, Image } from "@nextui-org/react";
+import { Divider, Image } from "@heroui/react";
 import { footerQuickLinksItem } from "../data/NavItem";
 import FooterMenu from "./Footer/FooterMenu";
 import mediCareLogo from "../../../public/header/medicarelogo.svg";

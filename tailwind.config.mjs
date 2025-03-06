@@ -1,17 +1,17 @@
 /** @type {import('tailwindcss').Config} */
-import { nextui } from "@nextui-org/react";
+import {heroui} from "@heroui/react";
 export default {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        DEFAULT: "1em",
       },
     },
     extend: {
@@ -36,9 +36,13 @@ export default {
           "linear-gradient(270deg, #FF0C6C 0%, rgba(229, 32, 81, 0.99) 100% )",
         "secondary-gradient":
           "linear-gradient(270deg, rgba(229, 32, 81, 0.15) 0%, rgba(255, 12, 108, 0.01) 80%)",
+        "section-gradient":
+          "linear-gradient(258deg,  rgba(255, 230, 236, 0.02) 99.08%) rgba(255, 210, 220, 0.2)) 0.25%",
+        "section-gradient-gray":
+          "linear-gradient(258deg, rgba(240, 240, 240, 0.02) 0.35%, rgba(220, 220, 220, 0.2) 99.08%)",
       },
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [heroui()],
 };

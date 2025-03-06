@@ -1,6 +1,6 @@
 "use client";
 
-import { Drawer, DrawerBody, DrawerContent } from "@nextui-org/react";
+import { Drawer, DrawerBody, DrawerContent } from "@heroui/react";
 import Link from "next/link";
 import FlexBox from "../ui/FlexBox";
 import Carts from "./Carts";
