@@ -1,16 +1,16 @@
-import AboutUs from "@/components/landingPage/AboutUs";
-import Features from "@/components/landingPage/Features";
 
+import Features from "@/components/landingPage/Features";
 import Hero from "@/components/landingPage/Hero";
-import Services from "@/components/landingPage/Services";
+import OurDoctors from "@/components/landingPage/OurDoctors";
 
 export default function Home() {
   return (
     <div>
       <Hero />
-      {/* <AboutUs /> */}
+    
       <Features />
-      {/* <Services /> */}
+    
+      <OurDoctors/>
     </div>
   ); 
 }

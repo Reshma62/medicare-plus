@@ -2,12 +2,12 @@
 
 import { Card, CardBody, CardHeader } from "@heroui/react";
 import FlexBox from "../ui/FlexBox";
-import MediH2 from "../ui/MediH2";
+import MediH2 from "../ui/Typography/MediH2";
 import SectionBg from "../ui/Section";
-import SectionSubtitle from "./SectionSubtitle";
-import MediIcon from "../ui/MediIcon";
-import MediH4 from "../ui/MediH4";
-import BodyText from "./BodyText";
+import SectionSubtitle from "../ui/Typography/SectionSubtitle";
+import MediIcon from "../ui/Typography/MediIcon";
+import MediH4 from "../ui/Typography/MediH4";
+import BodyText from "../ui/Typography/BodyText";
 import ContentBox from "../ui/ContentBox";
 
 const Features = () => {

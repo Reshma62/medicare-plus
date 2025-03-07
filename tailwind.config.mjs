@@ -35,9 +35,9 @@ export default {
         "primary-gradient":
           "linear-gradient(270deg, #FF0C6C 0%, rgba(229, 32, 81, 0.99) 100% )",
         "secondary-gradient":
-          "linear-gradient(270deg, rgba(229, 32, 81, 0.15) 0%, rgba(255, 12, 108, 0.01) 80%)",
+          "linear-gradient(270deg, rgba(229, 32, 81, 0.05) 0%, rgba(255, 12, 108, 0.01) 80%)",
         "section-gradient":
-          "linear-gradient(258deg,  rgba(255, 230, 236, 0.02) 99.08%) rgba(255, 210, 220, 0.2)) 0.25%",
+          "linear-gradient(258deg,  rgba(255, 230, 236, 0.5) 99.08%) rgba(255, 210, 220, 0.2)) 0.25%",
         "section-gradient-gray":
           "linear-gradient(258deg, rgba(240, 240, 240, 0.02) 0.35%, rgba(220, 220, 220, 0.2) 99.08%)",
       },

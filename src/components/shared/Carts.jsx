@@ -1,5 +1,5 @@
 import { Badge } from "@heroui/react";
-import MediIcon from "../ui/MediIcon";
+import MediIcon from "../ui/Typography/MediIcon";
 
 const Carts = () => {
   return (

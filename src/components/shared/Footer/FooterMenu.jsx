@@ -1,4 +1,4 @@
-import MediIcon from "@/components/ui/MediIcon";
+import MediIcon from "@/components/ui/Typography/MediIcon";
 import Link from "next/link";
 
 const FooterMenu = ({ title, navItems = [] }) => {

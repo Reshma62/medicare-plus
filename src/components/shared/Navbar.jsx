@@ -10,7 +10,7 @@ import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import Carts from "./Carts";
 import MediButton from "../ui/MediButton";
-import MediIcon from "../ui/MediIcon";
+import MediIcon from "../ui/Typography/MediIcon";
 import MobileMenu from "./MobileMenu";
 import ContentBox from "../ui/ContentBox";
 const Navbar = () => {
