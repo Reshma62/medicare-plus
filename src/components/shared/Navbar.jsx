@@ -12,6 +12,7 @@ import Carts from "./Carts";
 import MediButton from "../ui/MediButton";
 import MediIcon from "../ui/MediIcon";
 import MobileMenu from "./MobileMenu";
+import ContentBox from "../ui/ContentBox";
 const Navbar = () => {
   const params = useParams();
 
@@ -25,8 +26,8 @@ const Navbar = () => {
 
   return (
     <div className="font-openSans bg-white shadow">
-      <div className="container py-4 2xl:px-10">
-        <div className="flex items-center justify-between">
+      <ContentBox>
+        <div className="flex items-center justify-between py-5">
           <Image
             src={mediCareLogo.src}
             alt="MedicarePlus"
@@ -80,7 +81,7 @@ const Navbar = () => {
             />
           </div>
         </div>
-      </div>
+      </ContentBox>
     </div>
   );
 };
